@@ -1,0 +1,34 @@
+/* Tailwind Setting */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Freesentation-9Black";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-9Black.woff2")
+    format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* Reset Style */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/* 
+:root {
+  color-scheme: dark;
+} */
+
+body {
+  font-family: "IBM Plex Mono", "IBM Plex Sans KR", "sans-serif", monospace;
+  background-color: #ffffff;
+}
