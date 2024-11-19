@@ -1,18 +1,17 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Home from "./Home/Home";
-import Section from "./component/Section";
-import SectionMain from "./component/SectionMain";
+import Home from "./pagetitle/Home";
+import Company from "./pagetitle/Company";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App w-full">
       <BrowserRouter>
-        <Routes></Routes>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Company" element={<Company />} />
+        </Routes>
       </BrowserRouter>
-      <Home />
-      <Section />
-      <SectionMain />
     </div>
   );
 }

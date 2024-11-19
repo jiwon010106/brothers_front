@@ -32,14 +32,3 @@ body {
   font-family: "IBM Plex Mono", "IBM Plex Sans KR", "sans-serif", monospace;
   background-color: #ffffff;
 }
-
-/* Nav */
-.nav > ul > li > ul > li > a {
-  padding: 10px;
-  display: block;
-  transition: all 0.2s;
-}
-
-.nav > ul > li > ul > li > a:hover {
-  background-color: #eafcbb;
-}
